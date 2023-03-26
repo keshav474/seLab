@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.494" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Title of your feature" name="Title of your scenario" time="0.026">
+<system-out><![CDATA[
+Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action......................................................passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And check more outcomes.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Title of your scenario outline - Example #1.1" time="0.004">
+<system-out><![CDATA[
+Given I want to write a step with name1.....................................passed
+When I check for the 5 in step..............................................passed
+Then I verify the success in step...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Title of your scenario outline - Example #1.2" time="0.003">
+<system-out><![CDATA[
+Given I want to write a step with name2.....................................passed
+When I check for the 7 in step..............................................passed
+Then I verify the Fail in step..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
